@@ -9,8 +9,7 @@ font-family: 'Oswald', sans-serif;*/
 
 html {
     font-size: 10px;
-    font-family: 'Oswald',
-    sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 /*Nawigacja*/
@@ -35,7 +34,6 @@ nav a {
     display: inline-block;
     font-size: 1.6rem;
     text-decoration: none;
-    font-family: 'Roboto Condensed', sans-serif;
     color: white;
     text-transform: uppercase;
     padding: 12px;
@@ -80,7 +78,44 @@ header h1 {
 
 main {
     background-color: white;
+    max-width: 1120px;
+    margin: 0 auto;
+    color: #352B2C;
+    font-size: 0;
+}
 
+main p {
+    text-align: center;
+    padding-top: 5vh;
+    margin: 0 25px 0 25px;
+    line-height: 3.5rem;
+}
+
+main p.description {
+    font-size: 2.2rem;
+
+}
+
+main p.introduction {
+    color: #182d0d;
+    font-size: 3rem;
+}
+
+
+main div.feature {
+    padding: 10vh 5px;
+    display: inline-block;
+    width: 33.33%;
+}
+
+main div.image {
+    height: 30vh;
+    margin: 10px;
+}
+
+main h2 {
+    font-size: 2rem;
+    text-align: center;
 }
 
 footer {
